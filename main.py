@@ -35,11 +35,17 @@ try:
             print("\n==========================================")
             print("------- REALIZANDO O TESTE DE N°", quantidade_testes, "-------")
             print("==========================================")
+            print("-- Qt. Caminhões:", quantidade_de_caminhoes, "Qt. Funcionários:", funcionarios_por_caminhao, "--")
+            print("==========================================")
             print("Quantidade de carrocinhas: 3")
             print("==========================================")
-            print("Ponto de estacionamento dos caminhões: 11")
+            print("Ponto do Aterro: 1")
+            print("==========================================")
+            print("Ponto do Centro de Zoonoses: 4")
             print("==========================================")
             print("Capacidade de cada caminhão: 100.0")
+            print("==========================================")
+            print("Capacidade de cada carrocinha: 5 animais")
             print("==========================================")
 
             for ponto in bairro.adjacencias.keys():
