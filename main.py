@@ -68,13 +68,14 @@ try:
                     caminhao.sessao_de_coleta()
                     if caminhao.tempo_gasto > TEMPO_MAXIMO:
                         tempo_esgotado = True
-                        quantidade_testes += 1
 
                 for carrocinha in bairro.carrocinhas:
                     carrocinha.disponivel = True
                     if carrocinha.tempo_gasto > TEMPO_MAXIMO:
                         tempo_esgotado = True
 
+            quantidade_testes += 1
+            
             if not tempo_esgotado:
                 sucesso = True
                 break
